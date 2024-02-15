@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    overflow-x: visible !important;
+}
+.background-shape {
+    background-image: url("./assets/card-background-shape.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.align-items-center {
+    align-items: center;
+}
