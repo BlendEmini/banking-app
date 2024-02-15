@@ -43,7 +43,7 @@ const AddNewCardForm = ({ addCardForm, setAddCardForm, addCard }) => {
     return (
         <form
             onSubmit={handleSubmit}
-            className="fixed gap-9 flex flex-col justify-normal items-center bottom-0 w-full h-[750px] box-border p-8 rounded-t-[56px] bg-white border border-black"
+            className="fixed gap-9 flex flex-col justify-normal items-center bottom-0 w-full h-auto box-border p-8 rounded-t-[56px] bg-white border border-black"
         >
             <div className="w-full  flex justify-between">
                 <h2 className="font-extrabold text-2xl w-full">
