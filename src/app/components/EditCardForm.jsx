@@ -22,7 +22,7 @@ const EditCardForm = ({ card, updateCard, cardInEdit, showEditForm }) => {
     return (
         <div>
             <form
-                className="fixed gap-9 flex flex-col justify-normal items-center left-0 bottom-0 w-full h-auto box-border p-8 
+                className="fixed gap-9 flex flex-col justify-normal items-center left-0 top-8  w-full h-auto box-border p-8 
             rounded-t-[56px] bg-white border border-black"
             >
                 <div className="w-full  flex justify-between">
